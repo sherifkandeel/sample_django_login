@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Welcome to Django{% endblock %}
+{% block head %}Welcome to Django{% endblock %}
+{% block content %}
+    <p>Welcome {{ user.username }}, </p>
+    <p>Select one of the following apps form the dashboard:</p>
+    <a href=/app1/"> Keyword Tracker app </a><br/>
+    <a href="/logout/">Logout</a>
+{% endblock %}
